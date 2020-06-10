@@ -16,7 +16,7 @@ public class FindSubarraySumEqualToTargetFunction {
 		map.put(0, 1);
 
 		for (int i = 0; i < nums.length; i++) {
-			// Update the sum everytime
+			// Keep adding to the sum
 			sum += nums[i];
 
 			// sum - k will make sure if we seen a sum that we don't need for current index
