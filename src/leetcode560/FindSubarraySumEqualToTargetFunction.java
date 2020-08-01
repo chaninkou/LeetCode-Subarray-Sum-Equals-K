@@ -24,6 +24,7 @@ public class FindSubarraySumEqualToTargetFunction {
 				result += map.get(sum - k);
 			}
 
+			// update as needed
 			map.put(sum, map.getOrDefault(sum, 0) + 1);
 		}
 
